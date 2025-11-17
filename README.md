@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Filmes Infantis</title>
+    <title>Filmes Infantis</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,13 +25,13 @@
         }
         .movie {
             text-align: center;
-            width: 150px;
+            width: 200px;
             cursor: pointer;
             transition: transform 0.2s ease;
         }
         .movie img {
-            width: 150px;
-            height: 225px;
+            width: 200px;
+            height: 300px;
             border-radius: 10px;
         }
         .movie:hover {
@@ -40,7 +40,7 @@
         .movie-title {
             margin-top: 10px;
             color: #34495e;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: bold;
         }
     </style>
@@ -48,28 +48,39 @@
 <body>
     <h1>Filmes Infantis</h1>
     <div class="movie-container">
-        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=1lGFqEox1E4'">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/3/35/Frozen_II.jpg" alt="Frozen II">
+        <!-- Filme 1 -->
+        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=2e0tvlLlIHw'">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/6/64/Frozen_2_poster.jpg" alt="Frozen II">
             <div class="movie-title">Frozen II</div>
         </div>
-        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=9ePrYlZjPfs'">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/5/58/Coco_-_Cartaz.png" alt="Coco">
+
+        <!-- Filme 2 -->
+        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=5c9lAfmScpM'">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/d/d0/Coco_2017_cartaz.jpg" alt="Coco">
             <div class="movie-title">Coco</div>
         </div>
-        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=hpKhI-ya8JI'">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/3/3c/Minions_2.jpg" alt="Minions 2">
-            <div class="movie-title">Minions 2</div>
+
+        <!-- Filme 3 -->
+        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=XVzVKztP_EA'">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/0/09/Minions_2015_poster.jpg" alt="Minions">
+            <div class="movie-title">Minions</div>
         </div>
-        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=VVpD47C1W3Y'">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/a/af/Uma_Aventura_Epica.jpg" alt="Uma Aventura Épica">
+
+        <!-- Filme 4 -->
+        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=ZoX8u5Ug6qI'">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/9/95/Uma_Aventura_Épica_cartaz.jpg" alt="Uma Aventura Épica">
             <div class="movie-title">Uma Aventura Épica</div>
         </div>
-        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=tr0HZmGOF6g'">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Carros_2_cartaz.jpg" alt="Carros 2">
+
+        <!-- Filme 5 -->
+        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=MtN1YnoL46Q'">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/a/af/Carros_2_cartaz.jpg" alt="Carros 2">
             <div class="movie-title">Carros 2</div>
         </div>
-        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=4h3eKkQGvzc'">
-            <img src="https://upload.wikimedia.org/wikipedia/pt/d/d5/O_Rei_Le%C3%A3o_%282019%29_cartaz.jpg" alt="O Rei Leão">
+
+        <!-- Filme 6 -->
+        <div class="movie" onclick="window.location.href='https://www.youtube.com/watch?v=4pWz3wZ2zT4'">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/6/6a/O_Rei_Le%C3%A3o_2019_cartaz.jpg" alt="O Rei Leão">
             <div class="movie-title">O Rei Leão</div>
         </div>
     </div>
